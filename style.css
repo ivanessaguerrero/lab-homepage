@@ -19,3 +19,70 @@ h1{
     font-family: 'dancing script', cursive;
     text-align:center
 }
+.navbar {
+    background-color: rgb(247, 155, 170);
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: "Lora", serif;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+/* General link styling */
+a {
+    color: rgb(247, 155, 170);
+}
+
+/* Intro and callout boxes */
+.intro {
+    padding: 15px;
+    background-color: #fdf1f3;
+}
+
+.callout {
+    padding: 15px;
+    border: 1px solid rgb(247, 155, 170);
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.highlight {
+    color: rgb(247, 155, 170);
+    font-weight: bold;
+}
+
+
+#tattoo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tattoo-table th, #tattoo-table td {
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: left;
+}
+
+
+@media (max-width: 600px) {
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+.note {
+    background-color: #f5f5f5;
+    border-left: 4px solid rgb(247, 155, 170);
+    padding: 10px 15px;
+    font-size: 16px;
+}
