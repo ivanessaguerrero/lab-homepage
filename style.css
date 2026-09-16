@@ -1,1 +1,21 @@
 /* Add your styles here. */
+p{
+    color:rgb(247, 155, 170);
+    font-family: "Lora", serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+li{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color:grey;
+}
+
+ul{
+    list-style-type: "⭐ ";
+}
+h1{
+    color:grey;
+    font-family: 'dancing script', cursive;
+    text-align:center
+}
